@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont {
+  max-width: 500px;
+  background-color: black;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.menu .gta {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.menu .gta .imger1 {
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid #7f7f7f;
+  cursor: pointer;
+}
+.menu .gta .p1text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tochka .p2text {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.big {
+  padding: 2px;
+}
+.big .bigimg {
+  width: 496px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.item1 {
+  display: flex;
+  gap: 5px;
+}
+
+.imger3 {
+  width: 35px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.comment {
+  position: absolute;
+  width: 100%;
+  background-color: #202020;
+  height: 70%;
+  bottom: -100vh;
+  transition: all 0.5s;
+  z-index: 2;
+}
+
+.bott {
+  bottom: 0;
+}
+
+.child {
+  display: none;
+}
+
+.owerley {
+  position: absolute;
+  background-color: rgba(28, 28, 28, 0.862745098);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 1;
+  transition: all 0.5s;
+}/*# sourceMappingURL=style.css.map */
